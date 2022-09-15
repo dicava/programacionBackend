@@ -1,0 +1,28 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div> style = "display: flex: gap:50px"
+        <div>
+            <h1>Agregar producto</h1>
+            <form action="/productos" method="POST">
+                <label for="title">Nombre del producto</label>
+                <input type="text" name="title" id="title">
+
+                <label for="price">Precio del producto</label>
+                <input type="text" name="price" id="price">
+
+                <label for="thumbnail">Imagen del producto</label>
+                <input type="text" name="thumbnail" id="thumbnail">
+
+                <input type="submit" value="Agregar producto">
+            </form>
+        </div>
+
+    </div>
+</body>
+</html>
